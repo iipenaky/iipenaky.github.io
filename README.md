@@ -4,7 +4,7 @@ A clean, responsive one-page site built with **HTML5 + CSS3** to showcase my ski
 
 ---
 
-- View Portforlio here: [Portfolio](https://ipenaky.github.io)
+- View Portforlio here: [Portfolio](https://iipenaky.github.io)
 ### Structure
 
 ```
