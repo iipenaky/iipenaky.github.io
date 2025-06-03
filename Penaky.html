@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ——— Meta ——— -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peniel Ansah • Portfolio</title>
+    <meta name="author" content="Peniel Maame Akyireko Ansah">
+
+    <!-- ——— Styles & Fonts ——— -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ╔════════ NAVBAR ═════════╗ -->
+    <nav class="navbar">
+        <div class="container nav-wrapper">
+            <a class="logo" href="#home">P<span>.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- Mobile burger -->
+            <button class="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ╔════════ HERO ═════════╗ -->
+    <header id="home" class="hero container">
+        <div class="intro">
+            <p class="pre-title">// Hello, world</p>
+            <h1>I’m <span class="accent">Peniel&nbsp;Ansah</span></h1>
+            <h2 class="tagline">CS student · Full-Stack Dev · ML Enthusiast</h2>
+        </div>
+
+        <figure class="hero-img">
+            <!-- Supply a square portrait here -->
+            <img src="IMG_20211103_100351_476.jpg" alt="Portrait of Peniel Ansah">
+        </figure>
+    </header>
+
+    <!-- ╔════════ ABOUT ═════════╗ -->
+    <section id="about" class="section container">
+        <h2 class="section-title">About Me</h2>
+
+        <p class="about-text">
+            I’m an Ashesi University Computer-Science major (Class of 2026) who
+            loves turning ideas into software that helps people—especially in
+            health-tech and education. Beyond coding I mentor peers, sing alto,
+            and play badminton. <!-- :contentReference[oaicite:0]{index=0} -->
+        </p>
+    </section>
+
+    <!-- ╔════════ SKILLS ═════════╗ -->
+    <section id="skills" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+
+            <ul class="skill-grid">
+                <li><span>JavaScript / TypeScript</span></li>
+                <li><span>Python</span></li>
+                <li><span>Go</span></li>
+                <li><span>React & Vite</span></li>
+                <li><span>PostgreSQL</span></li>
+                <li><span>CNN Model Design</span></li>
+                <li><span>HTML & CSS/Sass</span></li>
+                <li><span>Research Methods</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ╔════════ PROJECTS ═════════╗ -->
+    <section id="projects" class="section container">
+        <h2 class="section-title">Selected Projects</h2>
+
+        <div class="project-grid">
+            <article class="card">
+                <h3>Medi-Harts</h3>
+                <p class="role">Team Lead · 2023</p>
+                <p class="desc">
+                    Led a 7-member team creating tools to raise
+                    coronary-artery-disease awareness in Ghana. <!-- :contentReference[oaicite:1]{index=1} -->
+                </p>
+            </article>
+
+            <article class="card">
+                <h3>Health Plus App</h3>
+                <p class="role">Full-Stack Dev · 2024</p>
+                <p class="desc">
+                    Built a lightweight health-tracking platform with React, Go
+                    and PostgreSQL. <!-- :contentReference[oaicite:2]{index=2} -->
+                </p>
+            </article>
+
+            <article class="card">
+                <h3>Stroke-Prediction CNN</h3>
+                <p class="role">ML Engineer · 2024</p>
+                <p class="desc">
+                    Designed a convolutional neural network to predict stroke
+                    risk from patient datasets. <!-- :contentReference[oaicite:3]{index=3} -->
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <!-- ╔════════ SERVICES ═════════╗ -->
+    <section id="services" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">What I Offer</h2>
+
+            <div class="service-grid">
+                <article>
+                    <h3>Full-Stack Web Dev</h3>
+                    <p>React, Go, Docker—everything from design to deployment.</p>
+                </article>
+                <article>
+                    <h3>Machine Learning</h3>
+                    <p>CNNs, data pipelines and model evaluation.</p>
+                </article>
+                <article>
+                    <h3>Technical Tutoring</h3>
+                    <p>Algorithms, debugging and software best practices.</p>
+                </article>
+                <article>
+                    <h3>Research Assistance</h3>
+                    <p>Mixed-methods study design and statistical analysis.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ╔════════ CONTACT ═════════╗ -->
+    <section id="contact" class="section container">
+        <h2 class="section-title">Contact</h2>
+
+        <ul class="contact-info">
+            <li><strong>Email</strong> <a href="mailto:Pennyansah@gmail.com">Pennyansah@gmail.com</a></li>
+            <li><strong>Phone</strong> <a href="tel:+2335550422798">+233 55 504 22798</a></li>
+            <li><strong>GitHub</strong> <a href="https://github.com/iipenaky" target="_blank">iipenaky</a></li>
+            <li><strong>LinkedIn</strong> <a href="https://www.linkedin.com/in/peniel-ansah-585662182/" target="_blank">peniel-ansah</a></li>
+            <li><strong>Location</strong> Accra, Ghana</li>
+        </ul>
+    </section>
+
+    <!-- ╔════════ FOOTER ═════════╗ -->
+    <footer class="footer">
+        <p>© 2025 Peniel Maame Akyireko Ansah — Built with ❤ & vanilla HTML/CSS</p>
+    </footer>
+
+    <!-- ╔════════ BURGER JS ═════════╗ -->
+    <script>
+        const burger  = document.querySelector('.hamburger');
+        const nav     = document.querySelector('.nav-links');
+        burger.addEventListener('click', () => {
+            nav.classList.toggle('show');
+            burger.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
